@@ -32,9 +32,12 @@ class MyHomePage extends StatelessWidget {
                     flex: 1,
                     child: Container(
                       margin: EdgeInsets.all(10.0), // Set margins here
-                      color: Colors.red,
+                      color: Colors.white,
                       child: Center(
-                        child: Text('One'),
+                        child: Image.asset(
+                          'assets/saturday_night_fever.jpg', // Replace with the actual asset path
+                          fit: BoxFit.cover, // You can adjust the fit as needed
+                        )
                       ),
                     ),
                   ),
@@ -42,8 +45,13 @@ class MyHomePage extends StatelessWidget {
                     flex: 1,
                     child: Container(
                       margin: EdgeInsets.all(10.0), // Set margins here
-                      color: Colors.green,
-                      child: Center(child: Text('Container 2')),
+                      color: Colors.white,
+                      child: Center(
+                        child: Image.asset(
+                          'assets/eraserhead.jpg', // Replace with the actual asset path
+                          fit: BoxFit.cover, // You can adjust the fit as needed
+                        )
+                      ),
                     ),
                   ),
                 ],
@@ -58,16 +66,26 @@ class MyHomePage extends StatelessWidget {
                     flex: 1,
                     child: Container(
                       margin: EdgeInsets.all(10.0), // Set margins here
-                      color: Colors.blue,
-                      child: Center(child: Text('Container 3')),
+                      color: Colors.white,
+                      child: Center(
+                        child: Image.asset(
+                          'assets/the_spy_who_loved_me.jpg', // Replace with the actual asset path
+                          fit: BoxFit.cover, // You can adjust the fit as needed
+                        )
+                      ),
                     ),
                   ),
                   Expanded(
                     flex: 1,
                     child: Container(
                       margin: EdgeInsets.all(10.0), // Set margins here
-                      color: Colors.yellow,
-                      child: Center(child: Text('Container 4')),
+                      color: Colors.white,
+                      child: Center(
+                        child: Image.asset(
+                          'assets/airport_77.jpg', // Replace with the actual asset path
+                          fit: BoxFit.cover, // You can adjust the fit as needed
+                        )
+                      ),
                     ),
                   ),
                 ],

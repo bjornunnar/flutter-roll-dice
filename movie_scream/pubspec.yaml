@@ -16,4 +16,9 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  assets:
+  - assets/saturday_night_fever.jpg
+  - assets/eraserhead.jpg
+  - assets/airport_77.jpg
+  - assets/the_spy_who_loved_me.jpg
   uses-material-design: true
