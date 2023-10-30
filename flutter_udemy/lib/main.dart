@@ -5,7 +5,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(), // my custom widget, defined below
+        body: GradientContainer(), // my custom widget, defined in separate file
       ),
     ),
   );
