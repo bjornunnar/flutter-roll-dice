@@ -25,3 +25,10 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+flutter_udemy/linux/flutter/generated_plugin_registrant.cc
+flutter_udemy/linux/flutter/generated_plugin_registrant.h
+.gitignore
+flutter_udemy/macos/Flutter/GeneratedPluginRegistrant.swift
+flutter_udemy/windows/flutter/generated_plugin_registrant.cc
+flutter_udemy/windows/flutter/generated_plugin_registrant.h
+flutter_udemy/windows/flutter/generated_plugins.cmake
