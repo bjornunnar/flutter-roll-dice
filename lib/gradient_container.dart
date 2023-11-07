@@ -22,9 +22,7 @@ class GradientContainer extends StatelessWidget { // my custom widget inherits f
               end: endAlignment,
             ),
           ),
-          child: const Center(
-            child: DieRoller(),
-          ),
+          child: const DieRoller(), 
         );
   }
 }
